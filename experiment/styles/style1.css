@@ -1,58 +1,62 @@
 ﻿@import url("layout.css");
 body {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
-	background-color: #67b;
+	background-color: #abc;
 }
 #container {
-	width: 630px;
+	width: 646px;
 	margin: 0 auto;
-	background-color: #cdf;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
 }
 #masthead {
-	text-align: right;
-	width: 630px;
+	width: 626px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
 	overflow: auto;
-	background-color: #ddb;
+	background-color: #bde;
 }
 #sidebar {
 	float: left;
-	width: 154px;
-	background-color: #cdf;
+	width: 150px;
+	background-color: #d3d3d3;
 	position: relative;
 	clear: both;
+	margin-left: 10px;
 	display: inline;
 }
 #content {
-	float: left;
-	width: 446px;
-	padding: 15px;
-	overflow: auto;
+	float: right;
+	width: 456px;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-left: 0;
+	padding: 10px;
 	background-color: #fff;
-	margin: 0px;
 	position: relative;
 }
-#content img {
-	display: block;
-}
 #footer {
+	text-align: center;
 	clear: both;
-	width: 630px;
-	background-color: #dcb;
+	width: 626px;
+	margin-right: 10px;
+	margin-left: 10px;
 	padding: 0;
 	overflow: auto;
-	margin-top: 0px;
+	background-color: #689;
 }
 #masthead img {
 	float: left;
 }
 #masthead p {
+	font-size: 0.8em;
 	text-align: right;
-	margin: 0;
-	margin-top: 5px;
+	margin-top: 10px;
 	margin-right: 10px;
-	padding: 0;
 }
 /* Styles for Navigation */
 #sidebar ul {
@@ -63,46 +67,41 @@ body {
 	padding: 0;
 }
 #sidebar li {
+	font-size: 0.9em;
 	display: block;
-	border: 1px solid #cdf;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #d3d3d3;
 }
 #sidebar a {
 	font-weight: bold;
 	text-decoration: none;
-	color: #04b;
+	color: #118;
 	display: block;
 	padding: 5px;
-	border-bottom: 1px solid #f9f9f9;
+	border-bottom: 1px solid #f2f2f2;
 }
 #sidebar a:hover {
 	font-weight: bold;
 	text-decoration: none;
-	color: #04b;
-	border-bottom: 1px solid #f9f9f9;
-	background-color: #f9f9f9;
+	color: #118;
+	border-bottom: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
 }
 /* Styles for Footer */
 #footer p {
-	font-size: 0.9em;
-	text-align: center;
-	margin: 0px;
+	font-size: 0.8em;
+	color: #fff;
+	margin: 2px;
 	padding: 2px;
 }
 #footer a {
-	color: #333;
+	color: #fff;
 	text-decoration: underline;
 }
 #footer a:hover {
-	color: #333;
+	color: #fff;
 	text-decoration: none;
-}
-a {
-	color: #04b;
-	text-decoration: underline;
-}
-a:hover {
-	color: #333;
-	text-decoration: underline;
 }
 .style_bold {
 	font-weight: bold;
